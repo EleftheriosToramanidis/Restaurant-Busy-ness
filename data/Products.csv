@@ -1,0 +1,322 @@
+Item ID,Item Name,Product Price,Vegetarian,Strength,ProdTypeID
+423,Lime Pickle,0.5,Y,3,1
+424,Mango Chutney,0.5,Y,1,1
+425,Mint Sauce,0.5,Y,0,1
+426,Onion Chutney,0.5,Y,0,1
+427,Red Sauce,0.5,Y,3,1
+428,Plain Papadum,0.8,Y,1,1
+429,Spicy Papadum,0.8,Y,2,1
+430,Chapati,1.95,Y,1,1
+431,Dahi,1.95,Y,1,1
+432,Puree,1.95,Y,1,1
+433,Naan,2.5,Y,1,1
+434,Plain Naan,2.6,Y,1,1
+435,Tandoori Roti,2.6,Y,2,1
+436,Bottle Coke,2.95,Y,0,4
+437,Bottle Diet Coke,2.95,Y,0,4
+438,Coke 1.5 ltr,2.95,Y,0,4
+439,Diet Coke 1.5 ltr,2.95,Y,0,4
+440,Garlic Naan,2.95,Y,1,1
+441,Green Salad,2.95,Y,0,1
+442,Keema Naan,2.95,N,1,1
+443,Kulcha Naan,2.95,N,1,1
+444,Lemonade 1.5 ltr,2.95,Y,0,4
+445,Mixed Raita,2.95,Y,0,1
+446,Onion Naan,2.95,Y,1,1
+447,Paratha,2.95,Y,1,1
+448,Peshwari Naan,2.95,Y,1,1
+449,Pilau Rice,2.95,Y,0,1
+450,Plain Rice,2.95,Y,0,1
+451,Raitha,2.95,Y,0,1
+452,Tandoori Paratha,2.95,Y,1,1
+453,Bengal Salad,3.95,Y,0,1
+454,Bottle Water 75cl,3.95,Y,0,4
+455,COBRA (330ML),3.95,Y,0,5
+456,Crispy Aloo,3.95,Y,2,2
+457,Curry Sauce,3.95,N,2,1
+458,Dhansak Sauce,3.95,N,3,1
+459,Egg Paratha,3.95,Y,1,1
+460,Egg Rice,3.95,Y,0,1
+461,French Fries,3.95,Y,0,1
+462,Garlic Rice,3.95,Y,0,1
+463,Keema Rice,3.95,N,0,1
+464,Lemon Rice,3.95,Y,0,1
+465,Madras Sauce,3.95,N,4,1
+466,Meat Samosa,3.95,N,2,2
+467,Mini Bhaji,3.95,Y,1,2
+468,Mushroom Rice,3.95,Y,0,1
+470,Onion Bhaji,3.95,Y,1,2
+471,Onion Rice,3.95,Y,0,1
+472,Perrier Water (750ml),3.95,Y,0,4
+473,Perrier Water 1 ltr,4.95,Y,0,4
+474,Evian Water (750 ml),3.95,Y,0,4
+475,Saag Rice,3.95,Y,0,1
+476,Special Fried Rice,3.95,Y,0,1
+477,Still Water (750ml),3.95,Y,0,4
+478,Stuffed Paratha,3.95,N,1,1
+479,Vegetable Rice,3.95,Y,0,1
+480,Vindaloo Sauce,3.95,N,5,1
+481,Aloo Chaat,4.95,Y,3,2
+482,Chana Chaat,4.95,Y,3,2
+483,Chicken Chaat,4.95,N,3,2
+484,Chicken Tikka,4.95,N,2,2
+485,Garlic Chicken Rice,4.95,N,1,1
+486,Korma Sauce,4.95,N,2,1
+487,Kurma Sauce,4.95,N,2,1
+488,Lamb Tikka,4.95,N,1,2
+489,Masala Sauce,4.95,N,3,1
+490,Paneer Pakora,4.95,Y,2,2
+492,Prawn Puree,4.95,N,2,2
+493,Sheek Kebab,4.95,N,1,2
+494,Chicken Kebab,4.95,N,1,2
+495,Tandoori Chicken (1/4),4.95,N,1,2
+496,Vegetable Roll,4.95,Y,1,2
+497,Vegetable Samosa,4.95,Y,1,2
+498,Aloo Brinjal,5.95,Y,2,1
+499,Aloo Dupiaza,5.95,Y,3,1
+500,Aloo Gobi,5.95,Y,2,1
+501,Aloo Methi,5.95,Y,3,1
+502,Aloo Mithy,5.95,Y,2,1
+503,Aloo Peas,5.95,Y,1,1
+504,Baingan Hari Mirch,5.95,Y,2,1
+505,Lentil Soup,5.95,Y,2,1
+506,Bhindi Bhajee,5.95,Y,2,1
+507,Bombay Aloo,5.95,Y,2,1
+508,Brinjal Bhajee,5.95,Y,2,1
+509,Cauliflower Bhajee,5.95,Y,2,1
+510,Chana Masala,5.95,Y,2,1
+511,Chicken Pakora,5.95,N,1,2
+512,COBRA ( LARGE ),5.95,Y,0,5
+513,Kingfisher (660ML),5.95,Y,0,5
+514,Dall Samba,5.95,Y,2,3
+515,Garlic Mushroom,5.95,Y,2,2
+516,King Prawn Butterfly,5.95,N,1,2
+517,King Prawn Puree,5.95,N,1,2
+518,Lamb Chops,5.95,N,1,2
+519,Mixed Vegetarian Starter,5.95,Y,2,2
+520,Mixed Starter,5.95,N,2,2
+521,Mixed Vegetable Curry,5.95,Y,2,3
+522,Mushroom Bhajee,5.95,Y,1,1
+523,Muttar Paneer,5.95,Y,1,1
+524,Royal Paneer,5.95,Y,2,1
+525,Saag Aloo,5.95,Y,2,1
+526,Saag Bhajee,5.95,Y,2,1
+527,Saag Dall,5.95,Y,2,1
+528,Saag Paneer,5.95,Y,1,1
+529,Tandoori Fish,5.95,N,2,2
+530,Tarka Dall,5.95,Y,2,1
+531,Vegetable Curry,5.95,Y,3,3
+532,Vegetable Mysore,5.95,Y,3,3
+533,Vegetable Samba,5.95,Y,4,3
+534,Vegetable Bhuna,6.95,Y,4,3
+535,Vegetable Dansak,6.95,Y,4,3
+536,Vegetable Korma,6.95,Y,2,3
+537,Vegetable Masala,6.95,Y,3,3
+538,Chicken Chaat Main,7.9,N,3,3
+540,Curry - Chicken,7.95,N,3,3
+541,Curry - Lamb,7.95,N,3,3
+543,Madras - Chicken,7.95,N,4,3
+544,Madras - Lamb,7.95,N,4,3
+545,Vegetable Jalfrezi,7.95,N,5,3
+546,Vindaloo - Beef,7.95,N,5,3
+547,Vindaloo - Chicken,7.95,N,5,3
+548,Vindaloo - Lamb,7.95,N,5,3
+549,Achar Chicken,8.95,N,4,3
+550,Achar Lamb,8.95,N,4,3
+552,Bhuna - Chicken,8.95,N,4,3
+553,Bhuna - Chicken Tikka,8.95,N,4,3
+555,Bhuna - Lamb,8.95,N,4,3
+557,Bombay - Chicken,8.95,N,4,3
+558,Bombay - Chicken Tikka,8.95,N,4,3
+560,Bombay - Lamb,8.95,N,4,3
+561,Butter Chicken,8.95,N,4,3
+562,Chicken Chaat (Main),8.95,N,3,3
+563,Chicken Chilli Masala,8.95,N,5,3
+564,Chicken Chilli Suka,8.95,N,5,3
+565,Chicken Karahi,8.95,N,3,3
+566,Chicken Royal,8.95,N,2,3
+567,Chicken Tikka (Main),8.95,N,2,3
+568,Chicken Tikka Chilli Masala,8.95,N,5,3
+569,Chicken Tikka Garlic,8.95,N,4,3
+570,Chicken Tikka Jalfrezi,8.95,N,5,3
+571,Chicken Tikka Jeera,8.95,N,4,3
+572,Chicken Tikka Masala,8.95,N,3,3
+573,Chicken Tikka Pasanda,8.95,N,2,3
+574,Chilli Paneer,8.95,N,5,3
+577,Curry - Prawn,8.95,N,3,3
+578,Cylon - Beef,8.95,N,4,3
+579,Cylon - Chicken,8.95,N,4,3
+580,Cylon - Chicken Tikka,8.95,N,4,3
+581,Cylon - Lamb,8.95,N,4,3
+582,Cylon - Paneer,7.95,Y,4,3
+583,Dhansak - Beef,8.95,N,4,3
+584,Dhansak - Chicken,8.95,N,4,3
+585,Dhansak - Chicken Tikka,8.95,N,4,3
+587,Dhansak - Lamb,8.95,N,4,3
+589,Dupiaza - Chicken,8.95,N,4,3
+590,Dupiaza - Chicken Tikka,8.95,N,4,3
+591,Dupiaza - Lamb,8.95,N,4,3
+592,Garlic Chicken,8.95,N,3,3
+593,Garlic Lamb,8.95,N,3,3
+594,Garlic Mirch Chicken,8.95,N,3,3
+595,Garlic Mirch Lamb,8.95,N,3,3
+596,King Prawn Special,8.95,N,3,3
+597,Tandoori Chicken Special,8.95,N,3,3
+598,Jeera Chicken,8.95,N,3,3
+599,Korma - Beef,8.95,N,2,3
+600,Korma - Chicken,8.95,N,2,3
+601,Korma - Chicken Tikka,8.95,N,2,3
+602,Korma - Fish,8.95,N,2,3
+603,Korma - Lamb,8.95,N,2,3
+604,Lamb Chilli Masala,8.95,N,4,3
+605,Lamb Karahi,8.95,N,4,3
+606,Lamb Tikka (Main),8.95,N,3,3
+607,Lamb Tikka Chilli Masala,8.95,N,5,3
+608,Lamb Tikka Garlic,8.95,N,4,3
+609,Lamb Tikka Jalfrezi,8.95,N,5,3
+610,Lamb Tikka Jeera,8.95,N,4,3
+611,Lamb Tikka Masala,8.95,N,4,3
+612,Lamb Tikka Pasanda,8.95,N,2,3
+613,Madras - Chicken Tikka,8.95,N,4,3
+614,Madras - Beef,8.95,N,4,3
+615,Madras - Prawn,8.95,N,4,3
+616,Malaya - Beef,8.95,N,3,3
+617,Malaya - Chicken,8.95,N,3,3
+618,Malaya - Chicken Tikka,8.95,N,3,3
+620,Malaya - Lamb,8.95,N,3,3
+622,Methi - Chicken,8.95,N,2,3
+623,Methi - Chicken Tikka,8.95,N,2,3
+624,Methi - Lamb,8.95,N,2,3
+625,Murgh Masala,8.95,N,2,3
+626,Mushroom,8.95,Y,2,3
+627,Mushroom - Chicken,8.95,N,2,3
+628,Mushroom - Chicken Tikka,8.95,N,2,3
+629,Mushroom - Beef,8.95,N,2,3
+630,Mushroom - Lamb,8.95,N,2,3
+631,Paneer Dansak,8.95,Y,3,3
+632,Paneer Kurma,8.95,Y,2,3
+633,Paneer Tikka Masala,8.95,Y,3,3
+634,Pathia - Beef,8.95,N,4,3
+635,Pathia - Chicken,8.95,N,4,3
+636,Pathia - Chicken Tikka,8.95,N,4,3
+638,Pathia - Lamb,8.95,N,4,3
+639,Rogon - Beef,8.95,N,3,3
+640,Rogon - Chicken,8.95,N,3,3
+641,Rogon - Chicken Tikka,8.95,N,3,3
+643,Rogon - Lamb,8.95,N,3,3
+644,Saag - Paneer,8.95,N,3,3
+645,Saag - Chicken,8.95,N,3,3
+646,Saag - Chicken Tikka,8.95,N,3,3
+647,Saag - Beef,8.95,N,3,3
+648,Saag - Lamb,8.95,N,3,3
+649,Sheek Kebab (Main),8.95,N,2,3
+650,Tandoori Chicken,8.95,N,2,3
+651,Tandoori Lamb ,8.95,N,2,3
+652,Vegetable Karahi,8.95,Y,2,3
+653,Vindaloo - Chicken Tikka,8.95,N,5,3
+654,Vindaloo - Lamb,8.95,N,5,3
+655,Vindaloo - Prawn,8.95,N,5,3
+656,Bhuna - Prawn,9.95,N,4,3
+657,Bombay - Prawn,9.95,N,4,3
+658,Butter Chicken,9.95,N,3,3
+659,Chicken Achar,9.95,N,3,3
+660,Chicken Balti,9.95,N,3,3
+661,Chicken Biryani,9.95,N,2,3
+662,Chicken Chilli Garlic,9.95,N,5,3
+663,Chicken Hari Mirch,9.95,N,4,3
+664,Chicken Haryali,9.95,N,4,3
+665,Chicken Mysore,9.95,N,4,3
+666,Chicken Rezala,9.95,N,5,3
+667,Chicken Shashlick,9.95,N,4,3
+668,Prawn Shaslick,9.95,N,4,3
+669,Chicken Sylhet,9.95,N,5,3
+670,Chicken Tikka Karahi,9.95,N,4,3
+671,Chicken Tikka Sizzler,9.95,N,3,3
+672,Cylon - Prawn,9.95,N,4,3
+673,Dhansak - Prawn,9.95,N,4,3
+674,Dupiaza - Prawn,9.95,N,4,3
+675,Garlic Tikka Chilli Masala,9.95,N,4,3
+676,Keema Aloo,9.95,N,3,3
+677,Korma - Prawn,9.95,N,2,3
+678,Lal Mirch Chicken,9.95,N,3,3
+679,Lal Mirch Lamb,9.95,N,3,3
+680,Lamb Achar,9.95,N,3,3
+681,Lamb Balti,9.95,N,3,3
+682,Lamb Biryani,9.95,N,2,3
+683,Lamb Chilli Garlic,9.95,N,4,3
+684,Lamb Chops (Main),9.95,N,1,3
+685,Lamb Hari Mirch,9.95,N,2,3
+686,Lamb Haryali,9.95,N,3,3
+687,Lamb Mysore,9.95,N,4,3
+688,Lamb Rezala,9.95,N,3,3
+689,Lamb Roshni,9.95,N,3,3
+690,Lamb Shaslick,9.95,N,2,3
+691,Lamb Sylhet,9.95,N,4,3
+692,Lamb Tikka Karahi,9.95,N,2,3
+693,Lamb Tikka Sizzler,9.95,N,2,3
+694,Malaya - Prawn,9.95,N,3,3
+695,Methi - Prawn,9.95,N,2,3
+696,Mushroom - Prawn,9.95,N,2,3
+697,Paneer Karahi,9.95,Y,1,3
+698,Paneer Shaslick,9.95,Y,1,3
+699,Paneer Sizzler,9.95,Y,1,3
+700,Paneer Tikka Karahi,9.95,Y,1,3
+701,Paneer Tikka Sizzler,9.95,Y,1,3
+702,Pathia - Prawn,9.95,N,4,3
+703,Prawn Karahi,9.95,N,3,3
+704,Rogon - Prawn,9.95,N,4,3
+705,Saag - Prawn,9.95,N,3,3
+706,Tandoori Chicken Masala,9.95,N,2,3
+707,Vegetable Balti,9.95,Y,2,3
+708,Vegetable Biryani,9.95,Y,2,3
+709,Chicken Roshni,10.95,N,3,3
+710,Chicken Tikka Balti,10.95,N,3,3
+711,Chicken Tikka Biryani,10.95,N,2,3
+712,Lamb Persian,10.95,N,1,3
+713,Lamb Roshni,10.95,N,2,3
+714,Lamb Shashlick,10.95,N,2,3
+715,Lamb Tikka Balti,10.95,N,3,3
+716,Lamb Tikka Biryani,10.95,N,2,3
+717,Paneer Tikka Balti,10.95,N,1,3
+718,Prawn Balti,10.95,N,2,3
+719,Prawn Biryani,10.95,N,2,3
+720,Curry - King Prawn,11.95,N,2,3
+722,Madras - King Prawn,11.95,N,4,3
+724,Persian Chicken Biryani,11.95,N,2,3
+725,Persian Lamb Biryani,11.95,N,2,3
+726,Tandoori Fish (Main),11.95,N,3,3
+727,Tandoori Fish Jalfrezi,11.95,N,5,3
+728,Tandoori Fish Karahi,11.95,N,4,3
+729,Tandoori Mixed Grill,11.95,N,3,3
+730,Vindaloo - King Prawn,11.95,N,5,3
+732,Bengal Fish Biryani,12.95,N,2,3
+733,Bengal Fish Karahi,12.95,N,3,3
+734,Bengal Fry Fish,12.95,N,2,3
+735,Bengal King Prawn,12.95,N,4,3
+736,Bhuna - King Prawn,12.95,N,4,3
+738,Bombay - King Prawn,12.95,N,3,3
+739,Chicken Shashlick Curry,12.95,N,3,3
+740,Cylon - King Prawn,12.95,N,3,3
+742,Dhansak - King Prawn,12.95,N,4,3
+744,Dupiaza - King Prawn,12.95,N,3,3
+746,Hazary Lamb,12.95,N,4,3
+747,Hazary Lamb Chilli Garlic,12.95,N,5,3
+748,Jinga Chillies,12.95,N,5,3
+749,King Prawn Balti,12.95,N,3,3
+750,King Prawn Biryani,12.95,N,2,3
+751,King Prawn Hari Mirch,12.95,N,2,3
+752,King Prawn Jalfrezi,12.95,N,5,3
+753,King Prawn Karahi,12.95,N,4,3
+754,King Prawn Royal,12.95,N,3,3
+755,King Prawn Shaslick,12.95,N,2,3
+756,Korma - King Prawn,12.95,N,2,3
+758,Lamb Shashlick Curry,12.95,N,3,3
+759,Methi - King Prawn,12.95,N,3,3
+761,Mushroom - King Prawn,12.95,N,2,3
+762,Pathia - King Prawn,12.95,N,4,3
+764,Rogon - King Prawn,12.95,N,4,3
+765,Saag - King Prawn,12.95,N,3,3
+767,Tandoori King Prawn Garlic,12.95,N,3,3
+768,Tandoori King Prawn Masala,12.95,N,3,3
+769,House Red wine 75cl,17.95,Y,0,5
+770,House white wine 75cl,17.95,Y,0,5
