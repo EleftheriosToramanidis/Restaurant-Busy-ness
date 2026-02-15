@@ -1,8 +1,4 @@
----
-title: "Database Reporting Project – Indian Food Delivery"
-author: "Eleftherios (Leo) Toramanidis"
-output: github_document
----
+
 
 # Overview
 
