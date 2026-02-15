@@ -1,96 +1,98 @@
-Database Reporting Project – Indian Food Delivery
-This project builds a small management reporting system for a group of Indian restaurants in the UK (London, Birmingham and Cambridge). The goal is to turn raw order data in CSV format into clear, repeatable reports that support better operational and commercial decisions.
+---
+title: "Database Reporting Project – Indian Food Delivery"
+author: "Eleftherios (Leo) Toramanidis"
+output: github_document
+---
 
-Objectives
-Import and model delivery order data in a relational database.
+# Overview
 
-Design SQL queries and reports that answer key business questions about demand, customer preferences and product combinations.
+This project builds a small management reporting system for a group of Indian
+restaurants in the UK (London, Birmingham and Cambridge).  
+The aim is to turn raw CSV order data into clear reports that support
+data‑driven decisions about staffing, stock, menu design and promotions.
 
-Explain how these reports can be used by managers to improve profitability and service quality.
+# Objectives
 
-Technologies Used
-Microsoft Access (database, queries and formatted reports)
+- Import and structure delivery order data in a relational database.
+- Design SQL queries and reports for key business questions.
+- Explain how each report can be used to improve profitability and service quality.
 
-SQLite (alternative implementation of the same logic)
+# Technologies
 
-SQL (joins, aggregation, grouping, filters)
+- Microsoft Access (primary implementation)
+- SQLite (alternative implementation)
+- SQL (joins, aggregation, grouping, filtering)
+- CSV files as data sources
 
-CSV data files as the input source
+# Data Model
 
-Data and Schema
-The dataset contains records of:
+The database includes tables for:
 
-Restaurants (location and identifier)
+- **Restaurants** – restaurant identifiers and locations.  
+- **Customers / Deliveries** – customer and delivery grid references.  
+- **Orders** – one row per order with restaurant and order date.  
+- **OrderItems** – one row per item in an order, including product, quantity,
+  price, category, spice level and vegetarian flag.
 
-Customers and delivery locations
+Foreign keys link orders to restaurants and items to orders so that demand can be
+analysed by location, weekday and product.
 
-Orders and order dates
+# Reports
 
-Order line items (menu item, quantity, price, spice level, vegetarian flag, etc.)
+## 1. Busyness Report
 
-These tables are linked through primary and foreign keys so that orders and items can be analysed by restaurant, day of week and product.
+Summarises, for each restaurant and day of the week:
 
-Key Reports
-1. Busyness Report
-Summarises, for each restaurant and each day of the week:
+- number of orders  
+- number of items sold  
+- total revenue  
+- average order value  
 
-Number of orders
+**Business use**
 
-Number of items sold
+- Align staffing with real demand (more staff on peak days, fewer on quiet days).  
+- Plan stock and prep volumes to avoid stock‑outs and reduce waste.  
+- Check whether busy days are genuinely profitable or dominated by low‑value orders.
 
-Total revenue
+## 2. Most Popular Items Report
 
-Average order value
+Ranks menu items by total quantity sold, grouped by product and category, with
+a minimum volume threshold to focus on meaningful sellers.
 
-This helps managers:
+**Business use**
 
-Align staffing levels with real demand (e.g. more staff on Fridays/Saturdays, fewer on quiet days).
+- Identify “hero” dishes to highlight on menus, websites and promotions.  
+- Support purchasing and batch‑cooking plans around high‑volume items.  
+- Flag low‑volume dishes for redesign, re‑pricing or removal to simplify operations.
 
-Plan stock and prep volumes more accurately to avoid both stock‑outs and waste.
+## 3. Main Dish Bundle Recommendation Report
 
-Decide whether busy days are truly profitable or dominated by low‑value orders.
+Analyses order lines to find items frequently bought together with each main
+dish (e.g. sides and starters) and counts how often those combinations occur.
 
-2. Most Popular Items Report
-Ranks menu items by total quantity sold, grouped by product and category, with a minimum volume threshold to focus on meaningful sellers.
+**Business use**
 
-Business uses include:
+- Design evidence‑based bundles and meal deals around natural pairings.  
+- Increase average order value through convenient recommendations on digital
+  ordering platforms and by staff.  
+- Adjust menu layout and pricing so high‑margin sides are presented as default pairings.
 
-Identifying “hero” dishes to feature in menus, websites and promotions.
+# Business Value
 
-Supporting purchasing and batch‑cooking plans around high‑volume items.
+Together, the three reports provide a rounded view of:
 
-Flagging under‑performing dishes that may need re‑pricing, redesign or removal from the menu.
+- when customers order (demand patterns)  
+- what they prefer (popular dishes)  
+- how they build their meals (bundles)
 
-3. Main Dish Bundle Recommendation Report
-Analyses order lines to find items frequently bought together with each main dish (e.g. sides and starters), and counts how often those combinations occur.
+Managers can use this toolkit to refine staffing, stock levels, menu content,
+pricing and promotions in a coordinated way that supports higher revenue,
+better cost control and an improved guest experience.
 
-This allows the business to:
+# How to Run
 
-Design evidence‑based bundles and meal deals that reflect what customers already order.
-
-Increase average order value through convenient recommendations rather than hard selling.
-
-Optimise menu layout and pricing so that high‑margin sides are presented as natural pairings for popular mains.
-
-Business Benefits
-Taken together, the three reports form a decision‑support toolkit that shows:
-
-When customers order (busyness patterns).
-
-What they prefer to eat (most popular items).
-
-How they naturally compose their meals (bundle combinations).
-
-Managers can use these insights to refine staffing levels, stock orders, menu content, pricing and promotions in a coordinated way that supports higher revenue, better cost control and an improved guest experience.
-
-How to Run
-Import the CSV files into MS Access (or SQLite) following the relational schema described above.
-
-Create the queries corresponding to each report (Busyness, Most Popular Items, Main Dish Bundles).
-
-In MS Access, build formatted reports based on those queries, grouping by restaurant and weekday or by product and category as required.
-
-Export the reports to PDF or use them directly inside the database application for analysis and decision‑making.
-
-Author
-Eleftherios (Leo) Toramanidis – MSc Business Analytics, University of Bath.
+1. Import the CSV files into **MS Access** (or SQLite) following the schema above.  
+2. Create SQL queries for the Busyness, Most Popular Items and Bundle reports.  
+3. In Access, base formatted reports on these queries, with appropriate grouping
+   and totals.  
+4. Export reports to PDF or use them live for analysis and decision‑making.
